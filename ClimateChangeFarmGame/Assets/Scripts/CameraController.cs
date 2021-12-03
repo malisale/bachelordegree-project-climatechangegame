@@ -16,14 +16,19 @@ public class CameraController : MonoBehaviour
     [SerializeField]
     private float dragSpeed = 3f;
 
-    private float yaw = 0f;
-    private float pitch = 0f;
+    private float _yaw = 0f;
+    private float _pitch = 0f;
+
+    private bool _checkCameraActive = true;
 
     private void Start()
     {
         // Initialize the correct initial rotation
-        this.yaw = this.transform.eulerAngles.y;
-        this.pitch = this.transform.eulerAngles.x;
+        /*this.yaw = this.transform.eulerAngles.y;
+        this.pitch = this.transform.eulerAngles.x;*/
+
+        this._yaw = this.transform.eulerAngles.y;
+        this._pitch = this.transform.eulerAngles.x;
     }
 
     private void Update()
@@ -31,13 +36,17 @@ public class CameraController : MonoBehaviour
         // Only work with the Left Alt pressed
         //if (Input.GetKey(KeyCode.LeftAlt))
        //{
+       
+            // check if camera is active == true 
+            if(_checkCameraActive)
+            {
             //Look around with Left Mouse
             if (Input.GetMouseButton(0))
             {
-                this.yaw += this.lookSpeedH * Input.GetAxis("Mouse X");
-                this.pitch -= this.lookSpeedV * Input.GetAxis("Mouse Y");
+                this._yaw += this.lookSpeedH * Input.GetAxis("Mouse X");
+                this._pitch -= this.lookSpeedV * Input.GetAxis("Mouse Y");
 
-                this.transform.eulerAngles = new Vector3(this.pitch, this.yaw, 0f);
+                this.transform.eulerAngles = new Vector3(this._pitch, this._yaw, 0f);
             }
 
             //drag camera around with Middle Mouse
@@ -55,5 +64,11 @@ public class CameraController : MonoBehaviour
             //Zoom in and out with Mouse Wheel
             this.transform.Translate(0, 0, Input.GetAxis("Mouse ScrollWheel") * this.zoomSpeed, Space.Self);
        // }
+       }
+    }
+
+    public void IsCameraActive(bool isActive)
+    {
+        _checkCameraActive = isActive;
     }
 }
