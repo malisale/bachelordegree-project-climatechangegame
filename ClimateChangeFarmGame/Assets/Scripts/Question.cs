@@ -13,23 +13,9 @@ public class Question
         this.question = question;
     }
 
-    public Question choose(string choice)
+    public Question Choose(string choice)
     {
         return answers[choice];
     }
-
-
-
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    
 }

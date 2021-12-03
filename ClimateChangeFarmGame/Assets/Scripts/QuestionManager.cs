@@ -1,43 +1,75 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-using System.Linq;
 
 public class QuestionManager : MonoBehaviour
 {
+   
     public TextMeshProUGUI questionText;
+    public Text optionAText;
+    public Text optionBText;
     
-    public Text optionA;
-    public Text optionB;
+    // Use this vars if I want to add text in inspector
+    
+    /*public string question;
+    public string optionA;
+    public string optionB;*/
 
-    public GameObject optionAButton;
-    public GameObject optionBButton;
+    public GameObject nextQuestionA;
+    public GameObject nextQuestionB;
+   
+    // Use this if I want to add text in inspector
+    /*private void Start()
+    {   
+        questionText.text = question;
+        optionAText.text = optionA;
+        optionBText.text = optionB;
+    }*/
 
-    Question currentQuestion;
-
-    public void choose(string optionSelected)
+    
+    public void SwitchQuestion(GameObject q)
     {
-        var nextQuestion = optionSelected == "A" ? optionA.text : optionB.text;
-        currentQuestion = currentQuestion.choose(nextQuestion);
-
-        questionText.GetComponent<TextMeshProUGUI>().text = currentQuestion.question;
-
-        var questionAlternatives = currentQuestion.answers.Keys.ToList();
-        optionA.text = questionAlternatives[0];
-        optionB.text = questionAlternatives[1];
+        q.SetActive(true);
+        this.gameObject.SetActive(false);
+        Destroy(this.gameObject);
     }
 
-    private void Start()
+    public void ClickA()
     {
-        currentQuestion = QuestionBank.getFirstQuestion();
-        questionText.GetComponent<TextMeshProUGUI>().text = currentQuestion.question;
-
-
-        var questionAlternatives = currentQuestion.answers.Keys.ToList();
-        optionA.text = questionAlternatives[0];
-        optionB.text = questionAlternatives[1];
+        Debug.Log("clicked A");
+        
+        //DO SOMETHING 
+        //ANIMATION
+        //SOUND
+        //MOVE CAMERA
+        //DELAY 
+        //CAMERA MANAGER. DO SOMETHING---> SWITCH THE QUESTION
+        
+        SwitchQuestion(nextQuestionA);
+        //wait here 30 secs
     }
-
+    
+    public void ClickB()
+    {
+        Debug.Log("clicked B");
+        
+        SwitchQuestion(nextQuestionB);
+    }
+    
+    // TODO create ClickC() method and assign to button C in some questions
+    
+    private void OnEnable()
+    {
+        if(Camera.main != null)
+            Camera.main.GetComponent<CameraController>().IsCameraActive(false);
+    }
+    
+    // Check where to add later
+    /*private void OnDisable()
+    {        
+        Camera.main.GetComponent<CameraController>().activeCamera(true);
+    }*/
 }

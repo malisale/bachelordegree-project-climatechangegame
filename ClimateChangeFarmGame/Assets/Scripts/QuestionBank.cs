@@ -10,7 +10,7 @@ class QuestionBank
 {
     public static Question startQuestion;
 
-    public static Question getFirstQuestion()
+    public static Question GetFirstQuestion()
     {
         if (startQuestion != null)
         {
