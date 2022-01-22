@@ -21,11 +21,16 @@ public class CameraController : MonoBehaviour
 
     private bool _checkCameraActive = true;
 
+    //private Vector3 _startPosition = new Vector3(-50, 50, 60);
+    //private Vector3 _startAngle = new Vector3(40, 135, 0);
+
     private void Start()
     {
         // Initialize the correct initial rotation
         /*this.yaw = this.transform.eulerAngles.y;
         this.pitch = this.transform.eulerAngles.x;*/
+
+        //_startPosition = transform.position;
 
         this._yaw = this.transform.eulerAngles.y;
         this._pitch = this.transform.eulerAngles.x;
@@ -35,11 +40,11 @@ public class CameraController : MonoBehaviour
     {
         // Only work with the Left Alt pressed
         //if (Input.GetKey(KeyCode.LeftAlt))
-       //{
-       
-            // check if camera is active == true 
-            if(_checkCameraActive)
-            {
+        //{
+
+        // check if camera is active == true 
+        if (_checkCameraActive)
+        {
             //Look around with Left Mouse
             if (Input.GetMouseButton(0))
             {
@@ -63,12 +68,19 @@ public class CameraController : MonoBehaviour
 
             //Zoom in and out with Mouse Wheel
             this.transform.Translate(0, 0, Input.GetAxis("Mouse ScrollWheel") * this.zoomSpeed, Space.Self);
-       // }
-       }
+            // }
+        }
     }
 
     public void IsCameraActive(bool isActive)
     {
         _checkCameraActive = isActive;
+
+        /*if (!_checkCameraActive)
+        {
+            transform.position = _startPosition;
+            transform.rotation = Quaternion.Euler(_startAngle); 
+        }*/
+
     }
 }
