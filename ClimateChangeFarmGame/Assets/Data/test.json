@@ -1,0 +1,36 @@
+﻿[
+  {
+    "questionNumber": 1,
+    "prompt": "First things first, let's start with the plan on how to create your farm. Imagine yourself being a farmer given some land and forest where there is no limitations to use, so feel free to use as much as you want to. Our first move will be regarding our farm infrastructure. According to your preferences you will have to choose/decide how you farm would look like.",
+    "answers": [
+      "Open type",
+      "Closed type"
+    ],
+    "nextQuestion": [
+      2,2
+    ]
+  },
+
+  {
+    "questionNumber": 2,
+    "prompt": "blablabla.",
+    "answers": [
+      "Open type",
+      "Closed type"
+    ],
+    "nextQuestion": [
+      3,3
+    ]
+  },
+  {
+    "questionNumber": 3,
+    "prompt": "blablabla.",
+    "answers": [
+      "Open type",
+      "Closed type"
+    ],
+    "nextQuestion": [
+      3,3
+    ]
+  }
+]
