@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Answer B: Closed type'
+  m_Text: 
 --- !u!1 &2915344625781404174
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,8 +178,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.25490198}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5882353}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -200,8 +200,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8474555654956861134}
-        m_TargetAssemblyTypeName: ChoiceManager, Assembly-CSharp
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: QuestionManager, Assembly-CSharp
         m_MethodName: ClickB
         m_Mode: 1
         m_Arguments:
@@ -311,8 +311,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 0}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 0.25490198}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5882353}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -333,8 +333,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8474555654956861134}
-        m_TargetAssemblyTypeName: ChoiceManager, Assembly-CSharp
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: QuestionManager, Assembly-CSharp
         m_MethodName: ClickA
         m_Mode: 1
         m_Arguments:
@@ -410,20 +410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'First things first, let''s start with the plan on how to create your farm.
-    Imagine yourself being a farmer given some land and forest where there is no
-    limitations to use, so feel free to use as much as you want to. Our first move
-    will be regarding our farm infrastructure. According to your preferances you
-    will have to choose/decide how you farm would look like.
-
-
-
-    Let''s make a
-    farm.
-
-    What type of farm would you build/prefer?
-
-'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b070a3d177d4dfe4fb352ef179f0779d, type: 2}
   m_sharedMaterial: {fileID: 5821158092227975811, guid: b070a3d177d4dfe4fb352ef179f0779d, type: 2}
@@ -570,7 +557,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Answer A : Open type'
+  m_Text: 
 --- !u!1 &8814296324897903363
 GameObject:
   m_ObjectHideFlags: 0
@@ -582,14 +569,14 @@ GameObject:
   - component: {fileID: 5736981635093309135}
   - component: {fileID: 6183132844240076094}
   - component: {fileID: 5374277378029492238}
-  - component: {fileID: 8474555654956861134}
+  - component: {fileID: 7544840259839749346}
   m_Layer: 5
   m_Name: QuestionPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &5736981635093309135
 RectTransform:
   m_ObjectHideFlags: 0
@@ -650,7 +637,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &8474555654956861134
+--- !u!114 &7544840259839749346
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -659,11 +646,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8814296324897903363}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23479bea247c6804eaecd1c43daf3f37, type: 3}
+  m_Script: {fileID: 11500000, guid: 8271b4e20b050fd49b0fa347b333dc00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   questionText: {fileID: 8804167775013761678}
   optionAText: {fileID: 7074876310345264673}
   optionBText: {fileID: 4737492867266313505}
-  nextQuestionA: {fileID: 0}
-  nextQuestionB: {fileID: 0}
+  optionCText: {fileID: 0}
