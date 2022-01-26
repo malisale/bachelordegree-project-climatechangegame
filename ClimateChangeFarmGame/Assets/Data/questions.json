@@ -1,362 +1,394 @@
 [
-    {
-        "questionNumber": 1,
-        "prompt": "First things first, let's start with the plan on how to create your farm. Imagine yourself being a farmer given some land and forest where there is no limitations to use, so feel free to use as much as you want to. Our first move will be regarding our farm infrastructure. According to your preferences you will have to choose/decide how you farm would look like.",
-        "answers": [
-            "Open type", 
-            "Closed type"
-        ],
-        "nextQuestion": [
-            2,2
-        ]
-    },
-    {
-        "questionNumber": 2,
-        "prompt": "Nice work, you have made your first steps toward expanding your farm.\nAfter you have chosen your type of farm, it's time to move to the next step. Everyone knows that farm is made and consists of different plant types. Hmm but maybe this seems a lot of extra work on your farm and you don't like it. What do you think about this?\nWould you like to grow different plants on your farm?",
-        "answers": [
-             "Yes",
-             "No"
-        ],
-        "nextQuestion": [
-            3,3
-        ]
-    },
-    {
-        "questionNumber": 3,
-        "prompt": "After you have done your first steps on farm, regarding plants and animals, whether you will only grow plants or raise animals or both, let's continue our story slowly to manage your farm and things you could do around.\nLet's assume some that you have both, or only plant farm or maybe animal farm buy change your mind and decided to have plants as well.\nWould you use plants also as food for animals?",
-        "answers": [
-             "Yes",
-             "No"
-        ],
-        "nextQuestion": [
-            4,5
-        ]
-    },
-    {
-        "questionNumber": 4,
-        "prompt": "After you chose your farm's building type let's move further. Assuming that many farmers raise different animals on farm, and you are one among those people. Some people prefer to keep their animals more inside, whether other to keep more outside. Everyone has their reasons by doing it. Where would you keep?",
-        "answers": [
-             "Inside",
-             "Outside"
-        ],
-        "nextQuestion": [
-            7,7
-        ]
-    },
-    {
-        "questionNumber": 5,
-        "prompt": "Great! It looks like you are a person who cannot imagine a farm without green world. That's nice. Well, since you want to grow plants, we have some limited offer of sorts that you are going to grow on your farm. Choose one that you like the most.\n\n\nWhat type of plants would you grow on your farm?",
-        "answers": [
-             "Rice",
-             "Soy",
-             "Beans"
-        ],
-        "nextQuestion": [
-            7,7,7
-        ]
-    },
-    {
-        "questionNumber": 6,
-        "prompt": "It's time to slowly start expanding your farm capabilities, therefore you will need more resources to run everything in optimal state. You have enough land space, money, time and you decided to make your plant production even better and bigger.\nFertilizers are used almost everywhere nowadays, so you want to apply that practice as well.  \n\nIf you are constantly expanding your plant production, what about application of fertilizers?\n",
-        "answers": [
-             "I would apply them",
-             "I wouldn't apply them"
-        ],
-        "nextQuestion": [
-            8,10
-        ]
-    },
-    {
-        "questionNumber": 7,
-        "prompt": "The first thing the comes being a farmer is, well, someone who raises a lot of animals. By lot is meant different kind of animals in a larger quantity. Here, we have a limited offer of common domestic animals that you can pick from, that you like or prefer the most. It's up to you to decide so we can continue our story.\n\n\nWhat type of  animal would you breed on your farm?\n",
-        "answers": [
-             "Cow",
-             "Sheep",
-             "Chicken"
-        ],
-        "nextQuestion": [
-            3,3,3
-        ]
-    },
-    {
-        "questionNumber": 8,
-        "prompt": "Let's go further with your plant expanding. The more you have it, the more you need to care about, since they are sensitive to outside factors that have impact on their condition. As always, every farmer wants to grow plants as best as possible and provide all the needed care. One way to do it is to use fertilizers which help plants to grow. \n\nIf you a need for usage for fertilizers, which one would you go for?\n",
-        "answers": [
-             "Use fertilizer from your farm",
-             "Take commercial fertilizer from stores"
-        ],
-        "nextQuestion": [
-            12,10
-        ]
-    },
-    {
-        "questionNumber": 9,
-        "prompt": "It's time to slowly start expanding your farm capabilities, therefore you will need more resources to run everything in best possible state. You have enough land space, money, time and you decided to make your meat production even better and bigger or even not? In most cases, with regard to the animal list we provide you to choose, farmers use them primarily for meat production. \nOf course this is not always the case, since there are other possibilities to use them. ",
-        "answers": [
-             "Yes, I would",
-             "No, I wouldn't"
-        ],
-        "nextQuestion": [
-            13,11
-        ]
-    },
-    {
-        "questionNumber": 10,
-        "prompt": "We are still busy with your plants. They need more attention from your side, since they are very sensitive to changes. Like animals on your farm, plants also need to be protected from different factors that come from outside. Nowadays, common way is to use pesticides. \n\nIt is known that plants need also some kind of protection. Which way would you go or what do you think about?",
-        "answers": [
-             "Usage of modern pesticides, that are tested and easy to buy",
-             "Old tradition ways of protection, that are barely applied nowadays"
-        ],
-        "nextQuestion": [
-            12,12
-        ]
-    },
-    {
-        "questionNumber": 11,
-        "prompt": "Okay, by now you have already decided what animals you would like to raise, where to keep them. As you have maybe noticed, some animals offer additional ways how to use them to make different products. Depending on the animal type, many farmers try to benefit as much as possible. Beside meat production, they tend to expand to other products as well. One of those famous products is for example a milk. ",
-        "answers": [
-             "Yes",
-             "No"
-        ],
-        "nextQuestion": [
-            13,13
-        ]
-    },
-    {
-        "questionNumber": 12,
-        "prompt": "So far we mentioned how you can manage plant protection, how to help them to grow in a better way to gain as much as benefit as possible. One very important aspect is health condition of every plant. As a farmer, you know how crucial that thing is. It involves from a lot of time and money from farmer's perspective. Maybe you want to grow some special sort of plants. \n\nRegarding health and plant breeding, would you apply genetic modification on plants?",
-        "answers": [
-             "Yes, of course",
-             "No, rather not"
-        ],
-        "nextQuestion": [
-            14,14
-        ]
-    },
-    {
-        "questionNumber": 13,
-        "prompt": "Let's jump to maintaining your farm overall. You, as a farmer own a huge farm. Working and living on farm relies on electric energy. Like others, you would probably use a lot of tools that are powered by electric energy. Of course the it's up to you to decide, maybe you are a person that uses less tools or no tools at all, that are dependant on electric energy. Who knows.\n\n\nIn order to run your farm, you need some source of electric energy. Which source you prefer in order to produce electric energy?",
-        "answers": [
-             "Production using wind energy",
-             "Production using hydro energy",
-             "Production using thermal energy"
-        ],
-        "nextQuestion": [
-            15,15,15
-        ]
-    },
-    {
-        "questionNumber": 14,
-        "prompt": "Today, irrigation is a common problem farmers deal with.\nIt concerns almost every farmer how to build proper irrigation system that fits the best. A farm without good system is something that nobody wants and probably you as well. Image what would happen to your plants if they don't have proper irrigation system and which consequences it can have. So let's try to install some system that you like.\n\n\nWhat type of irrigation system you would use?",
-        "answers": [
-             "Dropping system",
-             "Water pumps"
-        ],
-        "nextQuestion": [
-           15,15
-        ]
-    },
-    {
-        "questionNumber": 15,
-        "prompt": "Well done farmer! \nYou made a great progress building your farm, but your story is far from over. Keep building and let's go even further with new challenges.\nCan you imagine a farm during night time? Of course yes.\n\nWell, you need to be able to run your farm also during night period. \nYou can't just let your farm to be \"blind\" without light. \nAnimals and even some plants need light, when speaking about illumination.\n\nDuring night and day time, animals need light in terms of illumination.\nWhat type of light bulbs you would use?",
-        "answers": [
-             "Buy more expensive in big shopping stores like LED light-bulbs where you have to travel further",
-             "Use cheap ones that you can get in your local store"
-        ],
-        "nextQuestion": [
-            16,17
-        ]
-    },
-    {
-        "questionNumber": 16,
-        "prompt": "Before we talked about how would you keep your animals on farm. Are you that type of person that prefers more inside or more outside. The same topic we can apply when it comes to plants. It is known that, there are plants, which you can keep inside houses specially built for plants. Naturally, it is not possible to do with all plants on farm.\n\nWould you keep, if possible, plants inside special houses or open land type?",
-        "answers": [
-             "Housing system",
-             "Open land type"
-        ],
-        "nextQuestion": [
-            19,20
-        ]
-    },
-    {
-        "questionNumber": 17,
-        "prompt": "You already manage to build proper houses or stables for animals where they live and how to keep them and care about them. However, during summer time this is not a problem, since your farm is working entire year which includes winter time as well. During this entire period you need to keep your house warm. The same thing applies to your animals on farm. You have to provide and build some heat system.\n\n\nRegarding heating, which type you prefer?",
-        "answers": [
-             "Heating that uses thermal source",
-             "Heating that uses gas from earth",
-             "Heating using electrical source"
-        ],
-        "nextQuestion": [
-            18,18,18
-        ]
-    },
-    {
-        "questionNumber": 18,
-        "prompt": "It's time for tillage. This time of year is well known to every farmer.\nDuring this time, a farmer needs to prepare a soil for different crops. This includes a lot of work from your side. Many farmers rely on machines as it helps a lot, yet some rather on more primitive stuff that more work from your side where you can use animals as well.\n\n\nDo you prefer modern tillage with variety of machines or tradition old way using simple tools and animals?",
-        "answers": [
-             "Modern tillage",
-             "Old traditional tillage"
-        ],
-        "nextQuestion": [
-            20,24
-        ]
-    },
-    {
-        "questionNumber": 19,
-        "prompt": "At this point we assume that you tried do your best with your to your animals and with best possible care according to your decisions. Now, a one very important key in your animal management that we didn't mentioned before and that is animal feeding. Different farms apply different ways of feeding their animals. Some prefer practice that many other do nowadays, on the other hand some try to use cheaper ways of feeding duo to their budget.  \n\nWhich type of food would you feed animals?",
-        "answers": [
-             "Try to feed with raw plants",
-             "With usage of concentrate feed widely used around the globe"
-        ],
-        "nextQuestion": [
-            22,21
-        ]
-    },
-    {
-        "questionNumber": 20,
-        "prompt": "After tillage time and when season is over, the time of harvest comes or time to pick your plant products. This of course includes a lot of work from farmer's side whether you use machines or not. When everything is done nicely, there are always residues leftover, so what is your solution to them.",
-        "answers": [
-             "Burn it",
-             "Leave it to stay on the ground"
-        ],
-        "nextQuestion": [
-            22,26
-        ]
-    },
-    {
-        "questionNumber": 21,
-        "prompt": "Before we mentioned how important feeding is. It's one of the key aspects when it comes to raising animals on farm. Nobody wants animals that are starving or having a bad feeding care. People also tend to feed as healthy as possible which is always not easy. Same goes for animals. Adding to this, some farmers today give food supplements to animals. When people do it, then why not animals as well. Do you agree with this?\n\n\nRegard feeding, will you consider using supplements as additives?",
-        "answers": [
-             "I would use it", 
-             "I wouldn't use it"
-        ],
-        "nextQuestion": [
-            23,23
-        ]
-    },
-    {
-        "questionNumber": 22,
-        "prompt": "Before growing different plants, first you need to have a proper land for it. Since you are building a big farm, you will need more land for more plants. Other farmers are not able to do, duo to certain limitations, lower budget, geographical position, etc. Therefore they prefer using the same land for plants.\n\n\nUsing the same land for growing plants overs years is what many people do nowadays. Would you follow the same practice?",
-        "answers": [
-             "Yes, I would do the same",
-             "No I wouldn't"
-        ],
-        "nextQuestion": [
-            24,27
-        ]
-    },
-    {
-        "questionNumber": 23,
-        "prompt": "After all you have done for animals, which you thought is fine, now it's time to choose which way would you stick to when it comes to having animals on farm. Not all farmers are same, some have less budget and other limitations which lead them to make decision regarding animal managment. Here you will have to choose a way you think is better for you and your farm.\n\n\nRegard breeding and herd management, do you prefer quantity or/over quality?\n",
-        "answers": [
-             "Quantity",
-             "Quality"
-        ],
-        "nextQuestion": [
-            30,30
-        ]
-    },
-    {
-        "questionNumber": 24,
-        "prompt": "So far we mentioned many things that are important for managing your land for plants. Yet, there is one thing which is not to forget. That is carbon in soil. Carbon has significant role in agriculture.\nThere are many opinions among farmers, some are pro some are against. Some would increase whereas some would decrease or there is maybe a lack of knowledge. What is your decision when it comes to your farm?\n\n\nWould you rather increase or decrease the level of carbon in soil?",
-        "answers": [
-             "I would increase it",
-             "I would decrease it"
-        ],
-        "nextQuestion": [
-            26,26
-        ]
-    },
-    {
-        "questionNumber": 25,
-        "prompt": "Having animals on farm and keeping everything in best order, is not an easy task for farmers. They are faced with many challenges that come from animal managing. One of those thing is keeping the place clean where animals live and sleep. There is a an animal product that they, produce which needs to be properly maintained. That is a manure. Some farmers store them and then get rid after some period because it stinks and makes a lot of dirt. On other side, some are making use of it, rather than throwing it away.\nWhich side you belong to?\n\n\nWhat would you do with stored manure?",
-        "answers": [
-             "Dispose it because it stinks a lot overtime",
-             "Try to you it for something"
-        ],
-        "nextQuestion": [
-            27,27
-        ]
-    },
-    {
-        "questionNumber": 26,
-        "prompt": "Some farmers use different strategies when it comes to soil management. Among those is also application of cover. Some would rather leave it whereas other would never use it. What's your opinion about it? \n\nWould you use cover crops?",
-        "answers": [
-             "For sure",
-             "Rather not"
-        ],
-        "nextQuestion": [
-            25,25
-        ]
-    },
-    {
-        "questionNumber": 27,
-        "prompt": "With the expansion of your big farm comes also the price. As your farm is constantly growing to a bigger one, that means you need more space or land to build stuff. You are a lucky one, because you have enough free land given you to use. Of course, not every part of the land is plain and clean, ready to use. Often, farmers must cut trees in orders to make free space and make the land usable.\n\n\nWould you cut trees to be able to use more land as pasture or similar?",
-        "answers": [
-             "Definitely, cutting down trees would help my farm growing larger",
-             "Hmm.... rather not, keep it like this"
-        ],
-        "nextQuestion": [
-            30,30
-        ]
-    },
-    {
-        "questionNumber": 28,
-        "prompt": "Finally, you made it through. Your story is coming to an end.\nYou built you farm according to your choices and appetite. You manage to grow plants in a way you think it's the best. You also produce different products out of them. After you are done with production and packaging, the only thing left is to sell your products world wide. Therefore, you need transport system for that.  \n\nWhat type of transport delivery you would use to deliver your plant products to markets around the world?",
-        "answers": [
-             "Transport using fossil fuel, which is easy to get everywhere",
-             "Transport using electrical power, that is less used and harder to get and expensive"
-        ],
-        "nextQuestion": [
-            32,32
-        ]
-    },
-    {
-        "questionNumber": 29,
-        "prompt": "Finally, you made it through. Your story is coming to an end.\nYou built you farm according to your choices and appetite. You manage to raise animals in a way you think it's the best. You also produce different products out of them. After you are done with production and packaging, the only thing left is to sell your products world wide. Therefore, you need transport system for that.  \n\nWhat type of transport delivery you would use to deliver your meat to markets around the world and other animals products?",
-        "answers": [
-             "Transport using fossil fuel, which is easy to get everywhere",
-             "Transport using electrical power, that is less used and harder to get and expensive"
-        ],
-        "nextQuestion": [
-            32,32
-        ]
-    },
-    {
-        "questionNumber": 30,
-        "prompt": "We are coming close to the end of your journey. Hopefully you have done what you thought is the best for you and your farm. After all of that, there are few things left. When you produce something and have finished products, before being able to sell them on market, you need to pack those products properly. You have variety of packing materials that you can choose for your products, so give them a try.\n\n\nHow would you pack your plant products?\n",
-        "answers": [
-             "Use material that is more expensive but has some of the characteristics that you may like",
-             "Paper?",
-             "Use material that is cheap and easy to buy"
-        ],
-        "nextQuestion": [
-            28,28,28
-        ]
-    },
-    {
-        "questionNumber": 31,
-        "prompt": "We are coming close to the end of your journey. Hopefully you have done what you thought is the best for you and your farm. After all of that, there are few things left. When you produce something and have finished products, before being able to sell them on market, you need to pack those products properly. You have variety of packing materials that you can choose for your products, so give them a try :) \n\nHow would you pack your meat and other products made of an farm animals?",
-        "answers": [
-             "Use material that is more expensive but has some of the characteristics that you may like",
-             "Paper",
-            "Use material that is cheap and easy to buy" 
-        ],
-        "nextQuestion": [
-            29,29,29
-        ]
-    },
-    {
-        "questionNumber": 32,
-        "prompt": "Thanks for playing! You made it to the end! please take a moment for questionnaire!",
-        "answers": [
-            
-        ],
-        "nextQuestion": [
-            
-        ]
-    }
-    
-    
-    
+  {
+    "questionNumber": 1,
+    "prompt": "First things first, let's start with the plan on how to create your farm. Imagine yourself being a farmer given some land and forest where there is no limitations to use, so feel free to use as much as you want to. Our first move will be regarding our farm infrastructure. According to your preferences you will have to choose/decide how you farm would look like.",
+    "answers": [
+      "Open type",
+      "Closed type"
+    ],
+    "nextQuestion": [
+      2,
+      2
+    ]
+  },
+  {
+    "questionNumber": 2,
+    "prompt": "Nice work, you have made your first steps toward expanding your farm.\nAfter you have chosen your type of farm, it's time to move to the next step. Everyone knows that farm is made and consists of different plant types. Hmm but maybe this seems a lot of extra work on your farm and you don't like it. What do you think about this?\nWould you like to grow different plants on your farm?",
+    "answers": [
+      "Yes",
+      "No"
+    ],
+    "nextQuestion": [
+      3,
+      3
+    ]
+  },
+  {
+    "questionNumber": 3,
+    "prompt": "After you have done your first steps on farm, regarding plants and animals, whether you will only grow plants or raise animals or both, let's continue our story slowly to manage your farm and things you could do around.\nLet's assume some that you have both, or only plant farm or maybe animal farm buy change your mind and decided to have plants as well.\nWould you use plants also as food for animals?",
+    "answers": [
+      "Yes",
+      "No"
+    ],
+    "nextQuestion": [
+      6,
+      9
+    ]
+  },
+  {
+    "questionNumber": 4,
+    "prompt": "After you chose your farm's building type let's move further. Assuming that many farmers raise different animals on farm, and you are one among those people. Some people prefer to keep their animals more inside, whether other to keep more outside. Everyone has their reasons by doing it. Where would you keep?",
+    "answers": [
+      "Inside",
+      "Outside"
+    ],
+    "nextQuestion": [
+      7,
+      7
+    ]
+  },
+  {
+    "questionNumber": 5,
+    "prompt": "Great! It looks like you are a person who cannot imagine a farm without green world. That's nice. Well, since you want to grow plants, we have some limited offer of sorts that you are going to grow on your farm. Choose one that you like the most.\n\n\nWhat type of plants would you grow on your farm?",
+    "answers": [
+      "Rice",
+      "Soy",
+      "Beans"
+    ],
+    "nextQuestion": [
+      7,
+      7,
+      7
+    ]
+  },
+  {
+    "questionNumber": 6,
+    "prompt": "It's time to slowly start expanding your farm capabilities, therefore you will need more resources to run everything in optimal state. You have enough land space, money, time and you decided to make your plant production even better and bigger.\nFertilizers are used almost everywhere nowadays, so you want to apply that practice as well.  \n\nIf you are constantly expanding your plant production, what about application of fertilizers?\n",
+    "answers": [
+      "I would apply them",
+      "I wouldn't apply them"
+    ],
+    "nextQuestion": [
+      8,
+      10
+    ]
+  },
+  {
+    "questionNumber": 7,
+    "prompt": "The first thing the comes being a farmer is, well, someone who raises a lot of animals. By lot is meant different kind of animals in a larger quantity. Here, we have a limited offer of common domestic animals that you can pick from, that you like or prefer the most. It's up to you to decide so we can continue our story.\n\n\nWhat type of  animal would you breed on your farm?\n",
+    "answers": [
+      "Cow",
+      "Sheep",
+      "Chicken"
+    ],
+    "nextQuestion": [
+      3,
+      3,
+      3
+    ]
+  },
+  {
+    "questionNumber": 8,
+    "prompt": "Let's go further with your plant expanding. The more you have it, the more you need to care about, since they are sensitive to outside factors that have impact on their condition. As always, every farmer wants to grow plants as best as possible and provide all the needed care. One way to do it is to use fertilizers which help plants to grow. \n\nIf you a need for usage for fertilizers, which one would you go for?\n",
+    "answers": [
+      "Use fertilizer from your farm",
+      "Take commercial fertilizer from stores"
+    ],
+    "nextQuestion": [
+      12,
+      10
+    ]
+  },
+  {
+    "questionNumber": 9,
+    "prompt": "It's time to slowly start expanding your farm capabilities, therefore you will need more resources to run everything in best possible state. You have enough land space, money, time and you decided to make your meat production even better and bigger or even not? In most cases, with regard to the animal list we provide you to choose, farmers use them primarily for meat production. \nOf course this is not always the case, since there are other possibilities to use them. ",
+    "answers": [
+      "Yes, I would",
+      "No, I wouldn't"
+    ],
+    "nextQuestion": [
+      13,
+      11
+    ]
+  },
+  {
+    "questionNumber": 10,
+    "prompt": "We are still busy with your plants. They need more attention from your side, since they are very sensitive to changes. Like animals on your farm, plants also need to be protected from different factors that come from outside. Nowadays, common way is to use pesticides. \n\nIt is known that plants need also some kind of protection. Which way would you go or what do you think about?",
+    "answers": [
+      "Usage of modern pesticides, that are tested and easy to buy",
+      "Old tradition ways of protection, that are barely applied nowadays"
+    ],
+    "nextQuestion": [
+      12,
+      12
+    ]
+  },
+  {
+    "questionNumber": 11,
+    "prompt": "Okay, by now you have already decided what animals you would like to raise, where to keep them. As you have maybe noticed, some animals offer additional ways how to use them to make different products. Depending on the animal type, many farmers try to benefit as much as possible. Beside meat production, they tend to expand to other products as well. One of those famous products is for example a milk. ",
+    "answers": [
+      "Yes",
+      "No"
+    ],
+    "nextQuestion": [
+      13,
+      13
+    ]
+  },
+  {
+    "questionNumber": 12,
+    "prompt": "So far we mentioned how you can manage plant protection, how to help them to grow in a better way to gain as much as benefit as possible. One very important aspect is health condition of every plant. As a farmer, you know how crucial that thing is. It involves from a lot of time and money from farmer's perspective. Maybe you want to grow some special sort of plants. \n\nRegarding health and plant breeding, would you apply genetic modification on plants?",
+    "answers": [
+      "Yes, of course",
+      "No, rather not"
+    ],
+    "nextQuestion": [
+      14,
+      14
+    ]
+  },
+  {
+    "questionNumber": 13,
+    "prompt": "Let's jump to maintaining your farm overall. You, as a farmer own a huge farm. Working and living on farm relies on electric energy. Like others, you would probably use a lot of tools that are powered by electric energy. Of course the it's up to you to decide, maybe you are a person that uses less tools or no tools at all, that are dependant on electric energy. Who knows.\n\n\nIn order to run your farm, you need some source of electric energy. Which source you prefer in order to produce electric energy?",
+    "answers": [
+      "Production using wind energy",
+      "Production using hydro energy",
+      "Production using thermal energy"
+    ],
+    "nextQuestion": [
+      15,
+      15,
+      15
+    ]
+  },
+  {
+    "questionNumber": 14,
+    "prompt": "Today, irrigation is a common problem farmers deal with.\nIt concerns almost every farmer how to build proper irrigation system that fits the best. A farm without good system is something that nobody wants and probably you as well. Image what would happen to your plants if they don't have proper irrigation system and which consequences it can have. So let's try to install some system that you like.\n\n\nWhat type of irrigation system you would use?",
+    "answers": [
+      "Dropping system",
+      "Water pumps"
+    ],
+    "nextQuestion": [
+      15,
+      15
+    ]
+  },
+  {
+    "questionNumber": 15,
+    "prompt": "Well done farmer! \nYou made a great progress building your farm, but your story is far from over. Keep building and let's go even further with new challenges.\nCan you imagine a farm during night time? Of course yes.\n\nWell, you need to be able to run your farm also during night period. \nYou can't just let your farm to be \"blind\" without light. \nAnimals and even some plants need light, when speaking about illumination.\n\nDuring night and day time, animals need light in terms of illumination.\nWhat type of light bulbs you would use?",
+    "answers": [
+      "Buy more expensive in big shopping stores like LED light-bulbs where you have to travel further",
+      "Use cheap ones that you can get in your local store"
+    ],
+    "nextQuestion": [
+      16,
+      17
+    ]
+  },
+  {
+    "questionNumber": 16,
+    "prompt": "Before we talked about how would you keep your animals on farm. Are you that type of person that prefers more inside or more outside. The same topic we can apply when it comes to plants. It is known that, there are plants, which you can keep inside houses specially built for plants. Naturally, it is not possible to do with all plants on farm.\n\nWould you keep, if possible, plants inside special houses or open land type?",
+    "answers": [
+      "Housing system",
+      "Open land type"
+    ],
+    "nextQuestion": [
+      19,
+      20
+    ]
+  },
+  {
+    "questionNumber": 17,
+    "prompt": "You already manage to build proper houses or stables for animals where they live and how to keep them and care about them. However, during summer time this is not a problem, since your farm is working entire year which includes winter time as well. During this entire period you need to keep your house warm. The same thing applies to your animals on farm. You have to provide and build some heat system.\n\n\nRegarding heating, which type you prefer?",
+    "answers": [
+      "Heating that uses thermal source",
+      "Heating that uses gas from earth",
+      "Heating using electrical source"
+    ],
+    "nextQuestion": [
+      18,
+      18,
+      18
+    ]
+  },
+  {
+    "questionNumber": 18,
+    "prompt": "It's time for tillage. This time of year is well known to every farmer.\nDuring this time, a farmer needs to prepare a soil for different crops. This includes a lot of work from your side. Many farmers rely on machines as it helps a lot, yet some rather on more primitive stuff that more work from your side where you can use animals as well.\n\n\nDo you prefer modern tillage with variety of machines or tradition old way using simple tools and animals?",
+    "answers": [
+      "Modern tillage",
+      "Old traditional tillage"
+    ],
+    "nextQuestion": [
+      20,
+      24
+    ]
+  },
+  {
+    "questionNumber": 19,
+    "prompt": "At this point we assume that you tried do your best with your to your animals and with best possible care according to your decisions. Now, a one very important key in your animal management that we didn't mentioned before and that is animal feeding. Different farms apply different ways of feeding their animals. Some prefer practice that many other do nowadays, on the other hand some try to use cheaper ways of feeding duo to their budget.  \n\nWhich type of food would you feed animals?",
+    "answers": [
+      "Try to feed with raw plants",
+      "With usage of concentrate feed widely used around the globe"
+    ],
+    "nextQuestion": [
+      22,
+      21
+    ]
+  },
+  {
+    "questionNumber": 20,
+    "prompt": "After tillage time and when season is over, the time of harvest comes or time to pick your plant products. This of course includes a lot of work from farmer's side whether you use machines or not. When everything is done nicely, there are always residues leftover, so what is your solution to them.",
+    "answers": [
+      "Burn it",
+      "Leave it to stay on the ground"
+    ],
+    "nextQuestion": [
+      22,
+      26
+    ]
+  },
+  {
+    "questionNumber": 21,
+    "prompt": "Before we mentioned how important feeding is. It's one of the key aspects when it comes to raising animals on farm. Nobody wants animals that are starving or having a bad feeding care. People also tend to feed as healthy as possible which is always not easy. Same goes for animals. Adding to this, some farmers today give food supplements to animals. When people do it, then why not animals as well. Do you agree with this?\n\n\nRegard feeding, will you consider using supplements as additives?",
+    "answers": [
+      "I would use it",
+      "I wouldn't use it"
+    ],
+    "nextQuestion": [
+      23,
+      23
+    ]
+  },
+  {
+    "questionNumber": 22,
+    "prompt": "Before growing different plants, first you need to have a proper land for it. Since you are building a big farm, you will need more land for more plants. Other farmers are not able to do, duo to certain limitations, lower budget, geographical position, etc. Therefore they prefer using the same land for plants.\n\n\nUsing the same land for growing plants overs years is what many people do nowadays. Would you follow the same practice?",
+    "answers": [
+      "Yes, I would do the same",
+      "No I wouldn't"
+    ],
+    "nextQuestion": [
+      24,
+      27
+    ]
+  },
+  {
+    "questionNumber": 23,
+    "prompt": "After all you have done for animals, which you thought is fine, now it's time to choose which way would you stick to when it comes to having animals on farm. Not all farmers are same, some have less budget and other limitations which lead them to make decision regarding animal managment. Here you will have to choose a way you think is better for you and your farm.\n\n\nRegard breeding and herd management, do you prefer quantity or/over quality?\n",
+    "answers": [
+      "Quantity",
+      "Quality"
+    ],
+    "nextQuestion": [
+      30,
+      30
+    ]
+  },
+  {
+    "questionNumber": 24,
+    "prompt": "So far we mentioned many things that are important for managing your land for plants. Yet, there is one thing which is not to forget. That is carbon in soil. Carbon has significant role in agriculture.\nThere are many opinions among farmers, some are pro some are against. Some would increase whereas some would decrease or there is maybe a lack of knowledge. What is your decision when it comes to your farm?\n\n\nWould you rather increase or decrease the level of carbon in soil?",
+    "answers": [
+      "I would increase it",
+      "I would decrease it"
+    ],
+    "nextQuestion": [
+      26,
+      26
+    ]
+  },
+  {
+    "questionNumber": 25,
+    "prompt": "Having animals on farm and keeping everything in best order, is not an easy task for farmers. They are faced with many challenges that come from animal managing. One of those thing is keeping the place clean where animals live and sleep. There is a an animal product that they, produce which needs to be properly maintained. That is a manure. Some farmers store them and then get rid after some period because it stinks and makes a lot of dirt. On other side, some are making use of it, rather than throwing it away.\nWhich side you belong to?\n\n\nWhat would you do with stored manure?",
+    "answers": [
+      "Dispose it because it stinks a lot overtime",
+      "Try to you it for something"
+    ],
+    "nextQuestion": [
+      27,
+      27
+    ]
+  },
+  {
+    "questionNumber": 26,
+    "prompt": "Some farmers use different strategies when it comes to soil management. Among those is also application of cover. Some would rather leave it whereas other would never use it. What's your opinion about it? \n\nWould you use cover crops?",
+    "answers": [
+      "For sure",
+      "Rather not"
+    ],
+    "nextQuestion": [
+      25,
+      25
+    ]
+  },
+  {
+    "questionNumber": 27,
+    "prompt": "With the expansion of your big farm comes also the price. As your farm is constantly growing to a bigger one, that means you need more space or land to build stuff. You are a lucky one, because you have enough free land given you to use. Of course, not every part of the land is plain and clean, ready to use. Often, farmers must cut trees in orders to make free space and make the land usable.\n\n\nWould you cut trees to be able to use more land as pasture or similar?",
+    "answers": [
+      "Definitely, cutting down trees would help my farm growing larger",
+      "Hmm.... rather not, keep it like this"
+    ],
+    "nextQuestion": [
+      30,
+      30
+    ]
+  },
+  {
+    "questionNumber": 28,
+    "prompt": "Finally, you made it through. Your story is coming to an end.\nYou built you farm according to your choices and appetite. You manage to grow plants in a way you think it's the best. You also produce different products out of them. After you are done with production and packaging, the only thing left is to sell your products world wide. Therefore, you need transport system for that.  \n\nWhat type of transport delivery you would use to deliver your plant products to markets around the world?",
+    "answers": [
+      "Transport using fossil fuel, which is easy to get everywhere",
+      "Transport using electrical power, that is less used and harder to get and expensive"
+    ],
+    "nextQuestion": [
+      32,
+      32
+    ]
+  },
+  {
+    "questionNumber": 29,
+    "prompt": "Finally, you made it through. Your story is coming to an end.\nYou built you farm according to your choices and appetite. You manage to raise animals in a way you think it's the best. You also produce different products out of them. After you are done with production and packaging, the only thing left is to sell your products world wide. Therefore, you need transport system for that.  \n\nWhat type of transport delivery you would use to deliver your meat to markets around the world and other animals products?",
+    "answers": [
+      "Transport using fossil fuel, which is easy to get everywhere",
+      "Transport using electrical power, that is less used and harder to get and expensive"
+    ],
+    "nextQuestion": [
+      32,
+      32
+    ]
+  },
+  {
+    "questionNumber": 30,
+    "prompt": "We are coming close to the end of your journey. Hopefully you have done what you thought is the best for you and your farm. After all of that, there are few things left. When you produce something and have finished products, before being able to sell them on market, you need to pack those products properly. You have variety of packing materials that you can choose for your products, so give them a try.\n\n\nHow would you pack your plant products?\n",
+    "answers": [
+      "Use material that is more expensive but has some of the characteristics that you may like",
+      "Paper?",
+      "Use material that is cheap and easy to buy"
+    ],
+    "nextQuestion": [
+      28,
+      28,
+      28
+    ]
+  },
+  {
+    "questionNumber": 31,
+    "prompt": "We are coming close to the end of your journey. Hopefully you have done what you thought is the best for you and your farm. After all of that, there are few things left. When you produce something and have finished products, before being able to sell them on market, you need to pack those products properly. You have variety of packing materials that you can choose for your products, so give them a try :) \n\nHow would you pack your meat and other products made of an farm animals?",
+    "answers": [
+      "Use material that is more expensive but has some of the characteristics that you may like",
+      "Paper",
+      "Use material that is cheap and easy to buy"
+    ],
+    "nextQuestion": [
+      29,
+      29,
+      29
+    ]
+  },
+  {
+    "questionNumber": 32,
+    "prompt": "Thanks for playing! You made it to the end! please take a moment for questionnaire!",
+    "answers": [
+    ],
+    "nextQuestion": [
+    ]
+  }
 ]
